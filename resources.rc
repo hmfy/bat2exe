@@ -1,0 +1,25 @@
+1 ICON "app.ico"
+
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName", "BAT2EXE"
+            VALUE "FileDescription", "BAT to EXE Converter"
+            VALUE "FileVersion", "1.0.0"
+            VALUE "InternalName", "bat2exe"
+            VALUE "LegalCopyright", "Copyright © 2025"
+            VALUE "OriginalFilename", "app_02.exe"
+            VALUE "ProductName", "BAT to EXE Converter"
+            VALUE "ProductVersion", "1.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END

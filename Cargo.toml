@@ -1,0 +1,20 @@
+[package]
+name = "bat2exe"
+version = "1.0.0"
+authors = ["BAT2EXE Converter"]
+edition = "2021"
+description = "将BAT批处理文件转换为EXE可执行文件工具"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+tempfile = "3.8"
+thiserror = "1.0"
+winapi = { version = "0.3", features = ["wincon", "winuser", "processenv", "shellapi"] }
+chardet = "0.2"
+encoding_rs = "0.8"
+encoding = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+anyhow = "1.0"
+
+[build-dependencies]
+winres = "0.1"
