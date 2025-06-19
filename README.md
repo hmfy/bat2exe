@@ -122,10 +122,6 @@ bat2exe script.bat -i my_icon.ico -o my_program.exe
 3. **文件大小**: 生成的 EXE 文件大小约为 200KB-300KB（已优化）
 4. **权限要求**: 生成的 EXE 文件继承原 BAT 文件的权限要求
 
-## 许可证
-
-[在此添加许可证信息]
-
 ## 贡献
 
 欢迎提交 Issue 和 Pull Request！
